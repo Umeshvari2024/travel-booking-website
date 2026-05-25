@@ -72,6 +72,14 @@ body { background-color: #f8f9fa; color: #333; }
 
 /* Dark Mode */
 .dark-mode { background-color: #1e272e; color: #ffffff; }
+/* Dark Mode मधील लोगोसाठी बदल */
+.dark-mode .navbar .logo {
+    color: #ffffff; /* डार्क मोडमध्ये लोगोचा रंग पांढरा होईल */
+}
+
+.dark-mode .navbar .logo span {
+    color: #ff4757; /* 'Wanderlust' मधील span चा रंग तसाच राहील (हायलाईट करण्यासाठी) */
+}
 .dark-mode .navbar { background-color: #2f3640; }
 .dark-mode .card, .dark-mode .booking-form-box { background-color: #2f3640; color: white; }
 .dark-mode .main-footer { background-color: #1e272e; border-top: 1px solid #333; }
